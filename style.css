@@ -1,0 +1,37 @@
+* {
+    box-sizing: border-box;
+    /* margin: 0 auto; */
+}
+body {
+    background-color:#F2F2F2; /* cor de fundo*/
+    background-image: url("../img/leonardo_phoenix_2.jpg");
+    background-repeat: repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+img {
+    width: 100%;
+}
+
+h1 { 
+font-family: "Roboto", sans-serif;
+font-weight: 900;
+color:#A64029
+
+}
+.box{
+    width: 46%;
+    float: left;
+    margin: 1%;
+    box-shadow: 2px 2px 5px #101010;
+    padding: 1%;
+    background-color: #ffbc58;
+    border-radius: 10px;
+}
+/* tablets: */
+@media only screen and (max-width:800px){
+    .box {
+        width: 100%;
+    } 
+}
